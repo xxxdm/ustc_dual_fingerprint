@@ -1,0 +1,180 @@
+2026-05-03 16:13:52,081 - INFO - Using config: configs/config_seq_only.yaml
+2026-05-03 16:13:52,107 - INFO - Using device: cuda
+2026-05-03 16:13:52,115 - INFO - GPU name: NVIDIA GeForce RTX 3060 Laptop GPU
+2026-05-03 16:13:52,115 - INFO - CUDA version: 11.8
+2026-05-03 16:13:54,714 - INFO - Train samples: 84000
+2026-05-03 16:13:54,715 - INFO - Val samples: 18000
+2026-05-03 16:13:54,844 - INFO - Model device: cuda:0
+2026-05-03 16:13:54,844 - INFO - Experiment mode: seq_only
+2026-05-03 16:13:54,844 - INFO - Fusion type: concat
+2026-05-03 16:13:54,845 - INFO - Use positional encoding: True
+2026-05-03 16:13:54,845 - INFO - Checkpoint dir: checkpoints/dual_concat
+2026-05-03 16:17:53,149 - INFO - Epoch 1/30 | train_loss=0.4085 | val_loss=0.0754 | val_acc=0.9697 | val_f1=0.9633
+2026-05-03 16:17:53,206 - INFO - Best model updated. best_f1=0.9633
+2026-05-03 16:23:10,898 - INFO - Epoch 2/30 | train_loss=0.0814 | val_loss=0.0665 | val_acc=0.9697 | val_f1=0.9634
+2026-05-03 16:23:10,954 - INFO - Best model updated. best_f1=0.9634
+2026-05-03 16:28:43,446 - INFO - Epoch 3/30 | train_loss=0.0622 | val_loss=0.0384 | val_acc=0.9825 | val_f1=0.9788
+2026-05-03 16:28:43,501 - INFO - Best model updated. best_f1=0.9788
+2026-05-03 16:34:12,018 - INFO - Epoch 4/30 | train_loss=0.0496 | val_loss=0.0361 | val_acc=0.9862 | val_f1=0.9837
+2026-05-03 16:34:12,066 - INFO - Best model updated. best_f1=0.9837
+2026-05-03 16:39:38,070 - INFO - Epoch 5/30 | train_loss=0.0393 | val_loss=0.0285 | val_acc=0.9887 | val_f1=0.9865
+2026-05-03 16:39:38,113 - INFO - Best model updated. best_f1=0.9865
+2026-05-03 16:45:07,953 - INFO - Epoch 6/30 | train_loss=0.0373 | val_loss=0.0255 | val_acc=0.9903 | val_f1=0.9884
+2026-05-03 16:45:08,010 - INFO - Best model updated. best_f1=0.9884
+2026-05-03 16:50:36,105 - INFO - Epoch 7/30 | train_loss=0.0354 | val_loss=0.0256 | val_acc=0.9908 | val_f1=0.9891
+2026-05-03 16:50:36,151 - INFO - Best model updated. best_f1=0.9891
+2026-05-03 16:56:03,201 - INFO - Epoch 8/30 | train_loss=0.0336 | val_loss=0.0225 | val_acc=0.9908 | val_f1=0.9890
+2026-05-03 17:01:32,131 - INFO - Epoch 9/30 | train_loss=0.0315 | val_loss=0.0238 | val_acc=0.9899 | val_f1=0.9880
+2026-05-03 17:07:03,786 - INFO - Epoch 10/30 | train_loss=0.0324 | val_loss=0.0291 | val_acc=0.9892 | val_f1=0.9870
+2026-05-03 17:12:32,647 - INFO - Epoch 11/30 | train_loss=0.0230 | val_loss=0.0190 | val_acc=0.9931 | val_f1=0.9917
+2026-05-03 17:12:32,692 - INFO - Best model updated. best_f1=0.9917
+2026-05-03 17:18:00,210 - INFO - Epoch 12/30 | train_loss=0.0222 | val_loss=0.0174 | val_acc=0.9936 | val_f1=0.9923
+2026-05-03 17:18:00,258 - INFO - Best model updated. best_f1=0.9923
+2026-05-03 17:23:30,993 - INFO - Epoch 13/30 | train_loss=0.0216 | val_loss=0.0193 | val_acc=0.9935 | val_f1=0.9922
+2026-05-03 17:29:07,070 - INFO - Epoch 14/30 | train_loss=0.0211 | val_loss=0.0205 | val_acc=0.9910 | val_f1=0.9893
+2026-05-03 17:34:43,229 - INFO - Epoch 15/30 | train_loss=0.0204 | val_loss=0.0179 | val_acc=0.9920 | val_f1=0.9905
+2026-05-03 17:40:11,852 - INFO - Epoch 16/30 | train_loss=0.0197 | val_loss=0.0177 | val_acc=0.9928 | val_f1=0.9914
+2026-05-03 17:45:38,636 - INFO - Epoch 17/30 | train_loss=0.0201 | val_loss=0.0137 | val_acc=0.9951 | val_f1=0.9941
+2026-05-03 17:45:38,677 - INFO - Best model updated. best_f1=0.9941
+2026-05-03 17:51:09,192 - INFO - Epoch 18/30 | train_loss=0.0185 | val_loss=0.0282 | val_acc=0.9923 | val_f1=0.9908
+2026-05-03 17:56:47,886 - INFO - Epoch 19/30 | train_loss=0.0183 | val_loss=0.0157 | val_acc=0.9944 | val_f1=0.9934
+2026-05-03 18:02:26,356 - INFO - Epoch 20/30 | train_loss=0.0176 | val_loss=0.0146 | val_acc=0.9953 | val_f1=0.9943
+2026-05-03 18:02:26,417 - INFO - Best model updated. best_f1=0.9943
+2026-05-03 18:07:58,901 - INFO - Epoch 21/30 | train_loss=0.0133 | val_loss=0.0119 | val_acc=0.9955 | val_f1=0.9946
+2026-05-03 18:07:58,943 - INFO - Best model updated. best_f1=0.9946
+2026-05-03 18:13:07,656 - INFO - Epoch 22/30 | train_loss=0.0135 | val_loss=0.0123 | val_acc=0.9954 | val_f1=0.9946
+2026-05-03 18:17:20,210 - INFO - Epoch 23/30 | train_loss=0.0129 | val_loss=0.0118 | val_acc=0.9960 | val_f1=0.9952
+2026-05-03 18:17:20,249 - INFO - Best model updated. best_f1=0.9952
+2026-05-03 18:21:27,264 - INFO - Epoch 24/30 | train_loss=0.0128 | val_loss=0.0123 | val_acc=0.9963 | val_f1=0.9956
+2026-05-03 18:21:27,302 - INFO - Best model updated. best_f1=0.9956
+2026-05-03 18:28:49,052 - INFO - Using config: configs/config_seq_only.yaml
+2026-05-03 18:28:49,080 - INFO - Using device: cuda
+2026-05-03 18:28:49,086 - INFO - GPU name: NVIDIA GeForce RTX 3060 Laptop GPU
+2026-05-03 18:28:49,086 - INFO - CUDA version: 11.8
+2026-05-03 18:28:51,647 - INFO - Train samples: 84000
+2026-05-03 18:28:51,647 - INFO - Val samples: 18000
+2026-05-03 18:28:51,768 - INFO - Model device: cuda:0
+2026-05-03 18:28:51,769 - INFO - Experiment mode: seq_only
+2026-05-03 18:28:51,769 - INFO - Fusion type: concat
+2026-05-03 18:28:51,769 - INFO - Use positional encoding: True
+2026-05-03 18:28:51,769 - INFO - Checkpoint dir: checkpoints/seq_only
+2026-05-03 18:32:51,535 - INFO - Epoch 1/30 | train_loss=0.4108 | val_loss=0.0757 | val_acc=0.9660 | val_f1=0.9593
+2026-05-03 18:32:51,594 - INFO - Best model updated. best_f1=0.9593
+2026-05-03 18:38:17,569 - INFO - Epoch 2/30 | train_loss=0.0827 | val_loss=0.0799 | val_acc=0.9656 | val_f1=0.9578
+2026-05-03 18:41:05,048 - INFO - Using config: configs/config_seq_only.yaml
+2026-05-03 18:41:05,073 - INFO - Using device: cuda
+2026-05-03 18:41:05,080 - INFO - GPU name: NVIDIA GeForce RTX 3060 Laptop GPU
+2026-05-03 18:41:05,080 - INFO - CUDA version: 11.8
+2026-05-03 18:41:07,609 - INFO - Train samples: 84000
+2026-05-03 18:41:07,609 - INFO - Val samples: 18000
+2026-05-03 18:41:07,685 - INFO - Model device: cuda:0
+2026-05-03 18:41:07,686 - INFO - Experiment mode: seq_only
+2026-05-03 18:41:07,686 - INFO - Fusion type: concat
+2026-05-03 18:41:07,686 - INFO - Use positional encoding: True
+2026-05-03 18:41:07,686 - INFO - Checkpoint dir: checkpoints/seq_only
+2026-05-03 18:45:10,899 - INFO - Epoch 1/30 | train_loss=0.4185 | val_loss=0.0880 | val_acc=0.9636 | val_f1=0.9564
+2026-05-03 18:45:10,947 - INFO - Best model updated. best_f1=0.9564
+2026-05-03 18:49:12,882 - INFO - Epoch 2/30 | train_loss=0.0894 | val_loss=0.0581 | val_acc=0.9739 | val_f1=0.9689
+2026-05-03 18:49:12,927 - INFO - Best model updated. best_f1=0.9689
+2026-05-03 18:53:14,388 - INFO - Epoch 3/30 | train_loss=0.0582 | val_loss=0.0424 | val_acc=0.9844 | val_f1=0.9811
+2026-05-03 18:53:14,427 - INFO - Best model updated. best_f1=0.9811
+2026-05-03 18:57:11,570 - INFO - Epoch 4/30 | train_loss=0.0412 | val_loss=0.0342 | val_acc=0.9885 | val_f1=0.9863
+2026-05-03 18:57:11,610 - INFO - Best model updated. best_f1=0.9863
+2026-05-03 19:01:07,480 - INFO - Epoch 5/30 | train_loss=0.0381 | val_loss=0.0778 | val_acc=0.9766 | val_f1=0.9737
+2026-05-03 19:04:59,437 - INFO - Epoch 6/30 | train_loss=0.0359 | val_loss=0.0237 | val_acc=0.9898 | val_f1=0.9878
+2026-05-03 19:04:59,485 - INFO - Best model updated. best_f1=0.9878
+2026-05-03 19:08:43,858 - INFO - Epoch 7/30 | train_loss=0.0321 | val_loss=0.0201 | val_acc=0.9922 | val_f1=0.9907
+2026-05-03 19:08:43,896 - INFO - Best model updated. best_f1=0.9907
+2026-05-03 19:12:27,699 - INFO - Epoch 8/30 | train_loss=0.0311 | val_loss=0.0368 | val_acc=0.9881 | val_f1=0.9857
+2026-05-03 19:16:15,255 - INFO - Epoch 9/30 | train_loss=0.0291 | val_loss=0.0216 | val_acc=0.9921 | val_f1=0.9905
+2026-05-03 19:20:07,087 - INFO - Epoch 10/30 | train_loss=0.0288 | val_loss=0.0180 | val_acc=0.9927 | val_f1=0.9913
+2026-05-03 19:20:07,127 - INFO - Best model updated. best_f1=0.9913
+2026-05-03 19:24:00,249 - INFO - Epoch 11/30 | train_loss=0.0198 | val_loss=0.0215 | val_acc=0.9932 | val_f1=0.9919
+2026-05-03 19:24:00,299 - INFO - Best model updated. best_f1=0.9919
+2026-05-03 19:27:55,361 - INFO - Epoch 12/30 | train_loss=0.0201 | val_loss=0.0189 | val_acc=0.9933 | val_f1=0.9919
+2026-05-03 19:27:55,405 - INFO - Best model updated. best_f1=0.9919
+2026-05-03 19:31:58,052 - INFO - Epoch 13/30 | train_loss=0.0192 | val_loss=0.0200 | val_acc=0.9931 | val_f1=0.9917
+2026-05-03 19:36:50,619 - INFO - Epoch 14/30 | train_loss=0.0193 | val_loss=0.0173 | val_acc=0.9931 | val_f1=0.9917
+2026-05-03 19:42:09,954 - INFO - Epoch 15/30 | train_loss=0.0191 | val_loss=0.0182 | val_acc=0.9926 | val_f1=0.9912
+2026-05-03 19:47:28,808 - INFO - Epoch 16/30 | train_loss=0.0183 | val_loss=0.0157 | val_acc=0.9936 | val_f1=0.9924
+2026-05-03 19:47:28,846 - INFO - Best model updated. best_f1=0.9924
+2026-05-03 19:52:49,467 - INFO - Epoch 17/30 | train_loss=0.0175 | val_loss=0.0138 | val_acc=0.9939 | val_f1=0.9928
+2026-05-03 19:52:49,505 - INFO - Best model updated. best_f1=0.9928
+2026-05-03 19:58:13,559 - INFO - Epoch 18/30 | train_loss=0.0183 | val_loss=0.0149 | val_acc=0.9943 | val_f1=0.9932
+2026-05-03 19:58:13,605 - INFO - Best model updated. best_f1=0.9932
+2026-05-03 20:03:38,669 - INFO - Epoch 19/30 | train_loss=0.0176 | val_loss=0.0147 | val_acc=0.9943 | val_f1=0.9932
+2026-05-03 20:03:38,714 - INFO - Best model updated. best_f1=0.9932
+2026-05-03 20:09:06,441 - INFO - Epoch 20/30 | train_loss=0.0174 | val_loss=0.0164 | val_acc=0.9937 | val_f1=0.9924
+2026-05-03 20:14:27,434 - INFO - Epoch 21/30 | train_loss=0.0142 | val_loss=0.0118 | val_acc=0.9957 | val_f1=0.9949
+2026-05-03 20:14:27,475 - INFO - Best model updated. best_f1=0.9949
+2026-05-03 20:19:48,276 - INFO - Epoch 22/30 | train_loss=0.0139 | val_loss=0.0123 | val_acc=0.9953 | val_f1=0.9943
+2026-05-03 20:25:10,114 - INFO - Epoch 23/30 | train_loss=0.0133 | val_loss=0.0121 | val_acc=0.9953 | val_f1=0.9943
+2026-05-03 20:30:33,261 - INFO - Epoch 24/30 | train_loss=0.0136 | val_loss=0.0119 | val_acc=0.9948 | val_f1=0.9938
+2026-05-03 20:35:58,508 - INFO - Epoch 25/30 | train_loss=0.0137 | val_loss=0.0123 | val_acc=0.9953 | val_f1=0.9944
+2026-05-03 20:41:24,259 - INFO - Epoch 26/30 | train_loss=0.0137 | val_loss=0.0126 | val_acc=0.9952 | val_f1=0.9942
+2026-05-03 20:46:49,815 - INFO - Epoch 27/30 | train_loss=0.0134 | val_loss=0.0122 | val_acc=0.9954 | val_f1=0.9945
+2026-05-03 20:52:14,693 - INFO - Epoch 28/30 | train_loss=0.0128 | val_loss=0.0124 | val_acc=0.9953 | val_f1=0.9943
+2026-05-03 20:57:35,293 - INFO - Epoch 29/30 | train_loss=0.0133 | val_loss=0.0127 | val_acc=0.9953 | val_f1=0.9944
+2026-05-03 20:57:35,312 - INFO - Early stopping triggered after 8 epochs without improvement.
+2026-05-03 20:57:36,048 - INFO - Training curves saved to: checkpoints/seq_only\plots\training_curves.png
+2026-05-03 20:57:36,048 - INFO - train_losses: [0.4185244939538146, 0.08940702090225006, 0.05816021000928144, 0.04124935255305674, 0.03813868755461659, 0.03585551799541264, 0.03214907128978614, 0.031143583433869762, 0.029148626361084184, 0.02881885291934157, 0.019819541006562108, 0.020107961501718646, 0.019248682105663602, 0.019314051153176737, 0.019063503382561197, 0.01826723622497957, 0.017492380555616582, 0.018281991941926076, 0.017567928372400014, 0.017356540526845838, 0.014210771267615547, 0.01388135875878929, 0.013308841618375958, 0.013612301137015623, 0.013696978339887296, 0.013729355268317228, 0.013367876175777513, 0.012832678870534265, 0.013335867981433347]
+2026-05-03 20:57:36,048 - INFO - val_losses: [0.08796275254888396, 0.058137877320660565, 0.04244709968025321, 0.034203586610824156, 0.07775484842448754, 0.0236875986718373, 0.020108628792086972, 0.03677191037396187, 0.021572545685465634, 0.018047718605962878, 0.02148071223995632, 0.01893692715904803, 0.019977048185033104, 0.017263921532462215, 0.018183475643336756, 0.015734433026688446, 0.013770738310396054, 0.014850415534534275, 0.01468549960508042, 0.01639735132644556, 0.011770463279694216, 0.012322582897589503, 0.012135192823942716, 0.01194059454497498, 0.012269441382153471, 0.012602262714439955, 0.01216096894959224, 0.012429773269315774, 0.012732407460586627]
+2026-05-03 20:57:36,050 - INFO - val_accs: [0.9635555555555556, 0.9738888888888889, 0.9844444444444445, 0.9885, 0.9765555555555555, 0.9897777777777778, 0.9921666666666666, 0.9881111111111112, 0.9920555555555556, 0.9927222222222222, 0.9931666666666666, 0.9932777777777778, 0.9930555555555556, 0.9931111111111111, 0.9926111111111111, 0.9936111111111111, 0.9939444444444444, 0.9943333333333333, 0.9943333333333333, 0.9936666666666667, 0.9957222222222222, 0.9952777777777778, 0.9952777777777778, 0.9948333333333333, 0.9953333333333333, 0.9951666666666666, 0.9953888888888889, 0.9952777777777778, 0.9953333333333333]
+2026-05-27 13:10:57,389 - INFO - Using config: configs/config_seq_only.yaml
+2026-05-27 13:10:57,418 - INFO - Using device: cuda
+2026-05-27 13:10:57,427 - INFO - GPU name: NVIDIA GeForce RTX 3060 Laptop GPU
+2026-05-27 13:10:57,427 - INFO - CUDA version: 11.8
+2026-05-27 13:11:00,250 - INFO - Train samples: 84000
+2026-05-27 13:11:00,250 - INFO - Val samples: 18000
+2026-05-27 13:11:00,375 - INFO - Model device: cuda:0
+2026-05-27 13:11:00,376 - INFO - Experiment mode: seq_only
+2026-05-27 13:11:00,376 - INFO - Fusion type: concat
+2026-05-27 13:11:00,376 - INFO - Use positional encoding: True
+2026-05-27 13:11:00,376 - INFO - Checkpoint dir: checkpoints/seq_only
+2026-05-27 13:15:02,865 - INFO - Epoch 1/30 | train_loss=0.3776 | val_loss=0.0730 | val_acc=0.9706 | val_f1=0.9650
+2026-05-27 13:15:02,933 - INFO - Best model updated. best_f1=0.9650
+2026-05-27 13:19:18,815 - INFO - Epoch 2/30 | train_loss=0.0817 | val_loss=0.0588 | val_acc=0.9752 | val_f1=0.9705
+2026-05-27 13:19:18,856 - INFO - Best model updated. best_f1=0.9705
+2026-05-27 13:23:31,808 - INFO - Epoch 3/30 | train_loss=0.0621 | val_loss=0.0621 | val_acc=0.9768 | val_f1=0.9716
+2026-05-27 13:23:31,847 - INFO - Best model updated. best_f1=0.9716
+2026-05-27 13:27:39,599 - INFO - Epoch 4/30 | train_loss=0.0487 | val_loss=0.0505 | val_acc=0.9844 | val_f1=0.9810
+2026-05-27 13:27:39,660 - INFO - Best model updated. best_f1=0.9810
+2026-05-27 13:31:47,968 - INFO - Epoch 5/30 | train_loss=0.0447 | val_loss=0.0321 | val_acc=0.9888 | val_f1=0.9867
+2026-05-27 13:31:48,005 - INFO - Best model updated. best_f1=0.9867
+2026-05-27 13:35:57,034 - INFO - Epoch 6/30 | train_loss=0.0398 | val_loss=0.0368 | val_acc=0.9871 | val_f1=0.9847
+2026-05-27 13:40:06,329 - INFO - Epoch 7/30 | train_loss=0.0384 | val_loss=0.0286 | val_acc=0.9905 | val_f1=0.9886
+2026-05-27 13:40:06,366 - INFO - Best model updated. best_f1=0.9886
+2026-05-27 13:44:15,661 - INFO - Epoch 8/30 | train_loss=0.0337 | val_loss=0.0205 | val_acc=0.9925 | val_f1=0.9910
+2026-05-27 13:44:15,698 - INFO - Best model updated. best_f1=0.9910
+2026-05-27 13:48:25,569 - INFO - Epoch 9/30 | train_loss=0.0314 | val_loss=0.0223 | val_acc=0.9923 | val_f1=0.9908
+2026-05-27 13:52:36,657 - INFO - Epoch 10/30 | train_loss=0.0282 | val_loss=0.0356 | val_acc=0.9884 | val_f1=0.9861
+2026-05-27 13:56:45,749 - INFO - Epoch 11/30 | train_loss=0.0213 | val_loss=0.0186 | val_acc=0.9924 | val_f1=0.9910
+2026-05-27 14:00:57,186 - INFO - Epoch 12/30 | train_loss=0.0199 | val_loss=0.0192 | val_acc=0.9939 | val_f1=0.9927
+2026-05-27 14:00:57,229 - INFO - Best model updated. best_f1=0.9927
+2026-05-27 14:05:06,346 - INFO - Epoch 13/30 | train_loss=0.0194 | val_loss=0.0240 | val_acc=0.9923 | val_f1=0.9908
+2026-05-27 14:09:15,478 - INFO - Epoch 14/30 | train_loss=0.0192 | val_loss=0.0192 | val_acc=0.9931 | val_f1=0.9918
+2026-05-27 14:13:27,189 - INFO - Epoch 15/30 | train_loss=0.0186 | val_loss=0.0137 | val_acc=0.9951 | val_f1=0.9941
+2026-05-27 14:13:27,226 - INFO - Best model updated. best_f1=0.9941
+2026-05-27 14:17:38,799 - INFO - Epoch 16/30 | train_loss=0.0184 | val_loss=0.0145 | val_acc=0.9947 | val_f1=0.9937
+2026-05-27 14:21:50,215 - INFO - Epoch 17/30 | train_loss=0.0181 | val_loss=0.0144 | val_acc=0.9944 | val_f1=0.9933
+2026-05-27 14:26:01,837 - INFO - Epoch 18/30 | train_loss=0.0180 | val_loss=0.0159 | val_acc=0.9951 | val_f1=0.9941
+2026-05-27 14:26:01,875 - INFO - Best model updated. best_f1=0.9941
+2026-05-27 14:30:13,793 - INFO - Epoch 19/30 | train_loss=0.0173 | val_loss=0.0142 | val_acc=0.9949 | val_f1=0.9939
+2026-05-27 14:34:25,611 - INFO - Epoch 20/30 | train_loss=0.0173 | val_loss=0.0150 | val_acc=0.9947 | val_f1=0.9937
+2026-05-27 14:38:37,478 - INFO - Epoch 21/30 | train_loss=0.0138 | val_loss=0.0124 | val_acc=0.9957 | val_f1=0.9949
+2026-05-27 14:38:37,526 - INFO - Best model updated. best_f1=0.9949
+2026-05-27 14:42:48,738 - INFO - Epoch 22/30 | train_loss=0.0136 | val_loss=0.0118 | val_acc=0.9959 | val_f1=0.9951
+2026-05-27 14:42:48,776 - INFO - Best model updated. best_f1=0.9951
+2026-05-27 14:47:00,251 - INFO - Epoch 23/30 | train_loss=0.0134 | val_loss=0.0114 | val_acc=0.9963 | val_f1=0.9955
+2026-05-27 14:47:00,296 - INFO - Best model updated. best_f1=0.9955
+2026-05-27 14:51:12,055 - INFO - Epoch 24/30 | train_loss=0.0133 | val_loss=0.0116 | val_acc=0.9961 | val_f1=0.9953
+2026-05-27 14:55:24,382 - INFO - Epoch 25/30 | train_loss=0.0134 | val_loss=0.0131 | val_acc=0.9956 | val_f1=0.9948
+2026-05-27 14:59:38,473 - INFO - Epoch 26/30 | train_loss=0.0133 | val_loss=0.0124 | val_acc=0.9960 | val_f1=0.9952
+2026-05-27 15:03:50,504 - INFO - Epoch 27/30 | train_loss=0.0133 | val_loss=0.0126 | val_acc=0.9953 | val_f1=0.9944
+2026-05-27 15:08:03,145 - INFO - Epoch 28/30 | train_loss=0.0128 | val_loss=0.0124 | val_acc=0.9959 | val_f1=0.9951
+2026-05-27 15:12:15,634 - INFO - Epoch 29/30 | train_loss=0.0132 | val_loss=0.0136 | val_acc=0.9947 | val_f1=0.9936
+2026-05-27 15:16:28,059 - INFO - Epoch 30/30 | train_loss=0.0124 | val_loss=0.0105 | val_acc=0.9962 | val_f1=0.9955
+2026-05-27 15:16:28,860 - INFO - Training curves saved to: checkpoints/seq_only\plots\training_curves.png
+2026-05-27 15:16:28,860 - INFO - train_losses: [0.37758274636414996, 0.08170593311733475, 0.06206314121430928, 0.04870761884568353, 0.04471057823217087, 0.03975039517377566, 0.03838913150830368, 0.033653497729408025, 0.03142726699811915, 0.02821596074122014, 0.021266789163320938, 0.019924122015190646, 0.019364369613503404, 0.019231484619878756, 0.018638113038750903, 0.018438903813145033, 0.01809542331700227, 0.017965543057963215, 0.017276590427791234, 0.01728425586498928, 0.013774287419334065, 0.013570603777714062, 0.013405658290589815, 0.013269611104139283, 0.013445917337486337, 0.013327530575308109, 0.01327777853451525, 0.012817731488097273, 0.013227864075314193, 0.012405313112872093]
+2026-05-27 15:16:28,861 - INFO - val_losses: [0.07300518998731664, 0.05884011050975661, 0.06212131624982592, 0.05047304816459614, 0.0320959967954655, 0.036841348469323645, 0.02860756515803324, 0.02045926182778122, 0.02229843211439907, 0.03557359945791763, 0.018565388994122765, 0.0191621794462147, 0.02404717785645092, 0.019153255746141035, 0.013666415244262478, 0.01454529755957305, 0.014438601453926822, 0.015928628015857916, 0.014236321870275383, 0.015024823447125123, 0.012365312658414849, 0.01177093506668421, 0.01136908329989779, 0.011572581456630157, 0.013109589411044403, 0.012419915644459656, 0.012586814803948073, 0.012408438502811705, 0.013586413278397231, 0.010549926644544435]
+2026-05-27 15:16:28,861 - INFO - val_accs: [0.9706111111111111, 0.9752222222222222, 0.9768333333333333, 0.9843888888888889, 0.9888333333333333, 0.9870555555555556, 0.9905, 0.9925, 0.9922777777777778, 0.9883888888888889, 0.9923888888888889, 0.9939444444444444, 0.9922777777777778, 0.9931111111111111, 0.9950555555555556, 0.9947222222222222, 0.9943888888888889, 0.9951111111111111, 0.9948888888888889, 0.9947222222222222, 0.9957222222222222, 0.9959444444444444, 0.9962777777777778, 0.9961111111111111, 0.9956111111111111, 0.996, 0.9953333333333333, 0.9959444444444444, 0.9946666666666667, 0.9962222222222222]
