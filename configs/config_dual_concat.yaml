@@ -1,0 +1,85 @@
+seed: 42
+
+task:
+  mode: "20class"   # "binary" / "10class" / "20class"
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  split_dir: "data/split"
+  all_file: "all_samples.npz"
+  train_file: "train.npz"
+  val_file: "val.npz"
+  test_file: "test.npz"
+
+  seq_len: 784
+  image_size: 28
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+  max_packets_per_pcap: 5000
+  max_total_samples: -1
+
+train:
+  batch_size: 16
+  epochs: 30
+  lr: 0.001
+  weight_decay: 0.0001
+  num_workers: 0
+  device: "cuda"
+  mixed_precision: true
+  grad_accum_steps: 1
+  early_stop_patience: 8
+  max_train_samples: -1
+  max_val_samples: -1
+  cpu_threads: 2
+
+model:
+  vocab_size: 256
+  embed_dim: 64
+  num_heads: 4
+  num_layers: 2
+  ff_dim: 128
+  dropout: 0.1
+  cnn_out_dim: 128
+  fusion_dim: 128
+
+checkpoint:
+  dir: "checkpoints/dual_concat"
+  latest: "latest.pt"
+  best: "best.pt"
+
+log:
+  dir: "logs"
+  file: "dual_concat.log"
+
+experiment:
+  mode: dual
+  fusion_type: concat
+  use_pos_encoding: true
+
+dataset_map:
+  normal_10:
+    BitTorrent: 0
+    Facetime: 1
+    FTP: 2
+    Gmail: 3
+    MySQL: 4
+    Outlook: 5
+    Skype: 6
+    SMB: 7
+    Weibo: 8
+    WorldOfWarcraft: 9
+
+  malware_10:
+    Cridex: 10
+    Geodo: 11
+    Htbot: 12
+    Miuref: 13
+    Neris: 14
+    Nsis-ay: 15
+    Shifu: 16
+    Tinba: 17
+    Virut: 18
+    Zeus: 19

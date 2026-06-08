@@ -1,0 +1,48 @@
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+tqdm
+pyyaml
+joblib
+matplotlib
+seaborn
+scapy
+
+##进入项目目录：
+cd "D:\毕设\website fingerprinting\ustc_dual_fingerprint" 
+##
+##  创建训练数据
+& D:\VSCode\anacoda\envs\pytorch\python.exe main_build_dataset.py
+##
+##训练
+& D:\VSCode\anacoda\envs\pytorch\python.exe main_train.py
+##
+##测试
+& D:\VSCode\anacoda\envs\pytorch\python.exe main_test.py
+##
+##pso搜索
+& D:\VSCode\anacoda\envs\pytorch\python.exe main_pso.py
+##
+
+
+python main_train.py --config configs/config_seq_only.yaml
+python main_test.py --config configs/config_seq_only.yaml
+
+python main_train.py --config configs/config_img_only.yaml
+python main_test.py --config configs/config_img_only.yaml
+
+python main_train.py --config configs/config_dual_concat.yaml
+python main_test.py --config configs/config_dual_concat.yaml
+
+python main_train.py --config configs/config_dual_add.yaml
+python main_test.py --config configs/config_dual_add.yaml
+
+python main_train.py --config configs/config_dual_nope.yaml
+python main_test.py --config configs/config_dual_nope.yaml
+pause
+
+
+python main_train.py --config configs/config_seq_only_nope.yaml
+python main_test.py --config configs/config_seq_only_nope.yaml
